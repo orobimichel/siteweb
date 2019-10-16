@@ -1,0 +1,77 @@
+
+ body{
+     background-color:gainsboro;
+ }
+
+
+.btn{
+    float: right;
+    margin-right: 16px;
+}
+
+h1{
+    text-align: center;
+}
+
+#login .container{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.13);
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+#login-form{
+    width: 80%;
+    margin:auto;
+}
+
+hr{
+    width:25%;
+    background-color: rgba(0, 0, 255, 0);
+    height:2px;
+}
+
+.form-group{
+    margin: 30px;
+    
+}
+
+
+.clas:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+ input[type="text"] {
+     font-size: 1em;
+     text-transform: uppercase;
+     text-align: center;
+ }
+
+ input[type="number"] {
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+input[type="date"] {
+    font-size: 1em;
+    padding-left: 180px;
+    text-transform: uppercase;
+}
+
+input[type="search"]{
+text-align: center;
+background-color: cornflowerblue;
+color: white;
+}
+
+.copyr{
+    text-align:center ;
+    color:dodgerblue; 
+    font-size:1.8em;
+
+}
+
+.copyr:hover{
+    
+    color: black;
+}
