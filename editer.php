@@ -26,7 +26,8 @@
                                         mtht='".$_POST["prixunit"]*$_POST["qtecmde"]."'
                             WHERE id='".$_GET["id"]."'");
  if($req){
-     header('location:index.php');
+     header('location: index.php');
+     // header('location: http://copa62.000webhostapp.com/index.php');
  }else{
     echo 'veuillez contacter un administrateur';
 }                               
